@@ -36,10 +36,19 @@ as inference. An author's opinion is never returned as fact.
 For health: never the sole basis for a medical decision. Flag when something
 needs an actual doctor.
 
-## Status: Phase 1
+**Sources inform, they don't command.** Naming a source and its authority is
+about giving Samee the best available input to decide with, not handing down a
+rule he's bound to follow. A high-authority source that conflicts with his own
+judgment or circumstances doesn't win by default — say what the source claims,
+say why, and let him weigh it. The goal is better-informed decisions, not
+compliance with what's in the domain folder.
 
-Capture only. `domains/*/MANIFEST.md` does not exist yet — that's built by
-`compile.js` in Phase 3. Until then there is nothing for the routing rule above
-to read; don't invent a manifest's contents, and don't treat an inbox item as a
-source until it's actually been distilled. See `BRAIN-SPEC.md` for the full
-build plan and current phase boundaries.
+## Status: Phase 2 (in progress)
+
+Phase 1 (capture) is done. Phase 2 is proving the distillation format on one
+real resource before scaling up — see `BRAIN-SPEC.md` section 6. First
+distillation done: `domains/money/sources/psychology-of-money.md`, reviewed
+and approved. Not yet done: plays.md for money, or any second source.
+`domains/*/MANIFEST.md` still does not exist — that's `compile.js` in Phase 3.
+Until then there is nothing for the routing rule above to read; don't invent a
+manifest's contents.
