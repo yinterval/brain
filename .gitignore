@@ -1,0 +1,18 @@
+# Full source texts - large, often copyrighted, not meant to live in git history
+library/
+
+# Raw binary captures - the sidecar .json and text/.url captures stay tracked,
+# but large payload files don't belong in git history
+inbox/*.pdf
+inbox/*.epub
+inbox/*.docx
+inbox/*.png
+inbox/*.jpg
+inbox/*.jpeg
+inbox/*.gif
+inbox/*.mp4
+inbox/*.mov
+inbox/*.mp3
+
+node_modules/
+.DS_Store
