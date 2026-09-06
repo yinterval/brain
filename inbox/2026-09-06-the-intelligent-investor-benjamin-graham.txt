@@ -1,0 +1,1 @@
+The Intelligent Investor - Benjamin Graham (2003 Revised Edition, 641pp). PDF on Desktop; not copied into repo (watermarked scan, and .gitignore keeps binaries out anyway).

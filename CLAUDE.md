@@ -68,10 +68,18 @@ compliance with what's in the domain folder.
 
 ## Status: Phase 2 (in progress)
 
-Phase 1 (capture) is done. Phase 2 is proving the distillation format on one
-real resource before scaling up — see `BRAIN-SPEC.md` section 6. First
-distillation done: `domains/finance/sources/psychology-of-money.md`, reviewed
-and approved. Not yet done: plays.md for finance, or any second source.
+Phase 1 (capture) is done. Phase 2 proved the distillation format — see
+`BRAIN-SPEC.md` section 6. Two sources distilled, both in finance:
+
+- `psychology-of-money.md` (authority: medium) — reviewed and approved by Sam
+- `intelligent-investor.md` (authority: high) — 2003 revised edition
+
+They contradict each other on method and agree on temperament; both files
+record the conflict in their "What it contradicts" section. That cross-link is
+the system working as designed — keep doing it in both directions whenever a
+new source disagrees with an existing one.
+
+Not yet done: plays.md for finance, goals.md, or any source outside finance.
 `domains/*/MANIFEST.md` still does not exist — that's `compile.js` in Phase 3.
 Until then there is nothing for the routing rule above to read; don't invent a
 manifest's contents.

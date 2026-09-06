@@ -39,7 +39,14 @@ full_text: not-stored
 
 ## What it contradicts
 
-No other source in this domain yet — this is the first one distilled. Worth flagging for later: the book's own preferred strategy (broad low-cost index investing, held for decades, no market timing) will likely conflict with any future source here that argues for concentrated stock-picking, active trading, or leverage-driven strategies. The book itself notes that even Benjamin Graham — the father of value investing — walked back his own famous stock-picking formulas late in life because the market had changed around them, which is a useful internal tension to watch for if a "classic value investing" source gets added later.
+Conflicts with `intelligent-investor.md` on **method**, while agreeing on **temperament**. (This distillation predicted the conflict before Graham was added, and it landed:)
+
+- **Can you beat the market?** Housel: most people can't and shouldn't try — index, contribute consistently, leave it alone. Graham: an *enterprising* investor doing genuine analytical work can beat the average, though his *defensive* track is close to Housel's advice.
+- **Where edge comes from.** Housel: behaviour, almost entirely — finance is over-taught as physics, under-taught as psychology. Graham: rigorous quantitative analysis of individual securities, with temperament as the enabler rather than the source.
+- **Rules vs. sustainability.** Housel argues against coldly rational optimisation in favour of decisions you'll actually stick with. Graham supplies hard numeric screens (P/E ≤ 15, P/B ≤ 1.5, P/E × P/B ≤ 22.5). Housel's own point — that even Graham discarded his formulas as markets adapted — is confirmed by that book's edition history.
+- **Portfolio shape.** Housel: a few tail winners drive everything, so expect most picks to disappoint (points toward broad ownership). Graham: a screened set of quality issues bought below appraised value.
+
+**Where they agree, strongly:** margin of safety / room for error as the core survival concept; avoiding ruin beats maximising returns; forecasting is unreliable; your own behaviour under stress is the main risk.
 
 ## Open questions
 
