@@ -2,7 +2,7 @@
 title: The Psychology of Money
 kind: book
 url:
-domain: money
+domain: finance
 authority: medium
 authority_why: Well-regarded, widely-read synthesis by a professional finance writer, built on real case studies and data, but it is narrative synthesis rather than primary research or peer-reviewed evidence.
 added: 2026-09-06

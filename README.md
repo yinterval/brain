@@ -1,9 +1,10 @@
 # Brain
 
 A private, local-only knowledge system. Not hosted, not public, nobody else
-sees it. The point: when Samee asks for help on money or health, the answer
-should come from sources he actually chose, ranked by how trustworthy they
-are, not from whatever the model happens to recall.
+sees it. The point: when Samee asks for help on any of his five pillars
+(Faith, Family, Fitness, Finance, Fun), the answer should come from sources he
+actually chose, ranked by how trustworthy they are, not from whatever the
+model happens to recall.
 
 See `BRAIN-SPEC.md` for the full design. This README is the short version.
 
@@ -40,20 +41,26 @@ brain/
   inbox/             drop zone, unprocessed
   library/           full source texts (gitignored)
   domains/
-    money/sources/
-    health/sources/
+    faith/sources/
+    family/sources/
+    fitness/sources/   (aka health)
+    finance/sources/   (aka money, business, trading)
+    fun/sources/
   scripts/
     add.js           capture into inbox/
   bin/
     brain            the `brain add ...` command
 ```
 
+Five domains, matching the same five pillars as the `life` repo. See
+`CLAUDE.md`'s "Domains" section for which words map to which folder.
+
 `domains/*/goals.md`, `domains/*/plays.md`, `domains/*/MANIFEST.md`,
 `scripts/distil.js`, and `scripts/compile.js` don't exist yet — those are
-Phase 2 and 3. Right now this is just the empty machine: capture works, that's
-all.
+Phase 3 onward.
 
 ## Status
 
-**Phase 1 only: capture.** No real material has been ingested. See
-`BRAIN-SPEC.md` section 6 for the full build order.
+**Phase 2, in progress.** Capture works. One resource has been distilled all
+the way through and reviewed: `domains/finance/sources/psychology-of-money.md`.
+See `BRAIN-SPEC.md` section 6 for the full build order.

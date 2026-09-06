@@ -18,6 +18,29 @@ deliberately chosen, ranked by how much they're worth trusting.
 - Private repo, pushed to @yinterval over SSH via the `github-personal` alias.
   Never run `gh auth switch`.
 
+## Domains — the five pillars
+
+Everything captured belongs to one of five domains, the same five pillars as
+`life`:
+
+| Domain folder | Pillar | Also covers when Sam says |
+|---|---|---|
+| `domains/faith/` | Faith | Islam, religious practice |
+| `domains/family/` | Family | people, parenting, relationships |
+| `domains/fitness/` | Fitness | health, training, nutrition, medical |
+| `domains/finance/` | Finance | money, business, trading, investing |
+| `domains/fun/` | Fun | trips, hobbies, things worth doing |
+
+**When Sam shares something and says "add this to brain,"** pick the domain
+from the content, not from the exact word he used — he'll say "money" or
+"health" or "business" interchangeably and all of them map to a pillar above.
+If a resource genuinely spans two pillars (e.g. a book on money and family
+planning), pick the primary one and note the overlap in the distillation's
+"What it contradicts" or a new line under "What it claims" — don't invent a
+sixth folder or split it across two.
+
+If it's genuinely ambiguous which pillar fits, ask rather than guess.
+
 ## Routing — the part that makes this useful
 
 Before answering ANY question that touches a domain in `domains/`, read that
@@ -33,8 +56,8 @@ When sources conflict, present both and name them. Never silently pick a side.
 Distinguish what a source STATES from what you are INFERRING. Mark inference
 as inference. An author's opinion is never returned as fact.
 
-For health: never the sole basis for a medical decision. Flag when something
-needs an actual doctor.
+For fitness (health/medical): never the sole basis for a medical decision.
+Flag when something needs an actual doctor.
 
 **Sources inform, they don't command.** Naming a source and its authority is
 about giving Samee the best available input to decide with, not handing down a
@@ -47,8 +70,15 @@ compliance with what's in the domain folder.
 
 Phase 1 (capture) is done. Phase 2 is proving the distillation format on one
 real resource before scaling up — see `BRAIN-SPEC.md` section 6. First
-distillation done: `domains/money/sources/psychology-of-money.md`, reviewed
-and approved. Not yet done: plays.md for money, or any second source.
+distillation done: `domains/finance/sources/psychology-of-money.md`, reviewed
+and approved. Not yet done: plays.md for finance, or any second source.
 `domains/*/MANIFEST.md` still does not exist — that's `compile.js` in Phase 3.
 Until then there is nothing for the routing rule above to read; don't invent a
 manifest's contents.
+
+Note: `BRAIN-SPEC.md` section 1 describes "two domains at launch: money and
+health." That was the starting point, not a ceiling — the spec itself says
+more domains get added "by creating a folder, with no restructuring." This
+file is the live rulebook and reflects the current five-pillar structure
+above; treat `BRAIN-SPEC.md` as the original design record, not something
+that needs editing every time the domain list grows.
