@@ -79,7 +79,13 @@ record the conflict in their "What it contradicts" section. That cross-link is
 the system working as designed — keep doing it in both directions whenever a
 new source disagrees with an existing one.
 
-Not yet done: plays.md for finance, goals.md, or any source outside finance.
+`domains/finance/goals.md` now holds the real goal Samee stated on
+2026-09-20 ($1m saved by end 2027, $5m by end 2030), the run rate that
+requires, and the money events worth remembering. Read it before answering
+anything about his finances. Recompute the run rate when the date moves: one
+carrying a stale start date understates the requirement every month, quietly.
+
+Not yet done: plays.md for finance, or any source outside finance.
 `domains/*/MANIFEST.md` still does not exist — that's `compile.js` in Phase 3.
 Until then there is nothing for the routing rule above to read; don't invent a
 manifest's contents.
