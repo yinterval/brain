@@ -35,15 +35,24 @@ stale date understates what is needed, every month, silently.
 
 ## What we do not know yet, and it matters
 
-**There is no starting balance.** Skynet tracks money moving across 5
-accounts, not what is sitting in them. Every figure above assumes a start of
-zero. Until his actual savings are known, progress against this goal cannot
-be measured at all, only the rate of change can.
+**Starting balance, measured 2026-10-04: $17,513 (PKR 4,852,492).**
 
-**The currency is mixed.** The goal is in dollars, every transaction is in
-PKR. A rate convention has to be picked and written down, otherwise the same
-month gets two different answers. PKR has also lost value against the dollar
-over time, which works against a dollar target saved in rupees.
+That is cash in Mercury and Wise, read from their APIs, at 277.07 PKR to the
+dollar. It is 1.8% of the first million. It does NOT include his Pakistani
+bank accounts, which have no API and are tracked only through email alerts
+that report movements and never balances, so his real position is higher by
+an unknown amount. Treat this as a floor, not a total.
+
+Skynet snapshots these balances with the rate used at the time, so a trend
+now accumulates. Before 2026-10-04 only the rate of change could be measured
+and progress against the goal could not be measured at all.
+
+**The currency question is settled.** Balances are shown in their own
+currency and converted to both USD and PKR, at the Wise rate, with the rate
+displayed alongside the figure. The rate used is stored with each snapshot
+rather than applied retrospectively: converting history at today's rate would
+silently rewrite what an earlier month was worth. PKR has lost value against
+the dollar over time, which works against a dollar target held in rupees.
 
 **The gap is large and should be said plainly.** Observed personal spending
 is roughly PKR 250,000 to 400,000 a month, which is about $900 to $1,400. The
@@ -61,10 +70,13 @@ for the same list in build order.
    a sample.
 2. Full cash flow: everything in, everything out, in one view.
 3. A profit and loss view: earning versus spending over a period.
-4. Account balances, which is the missing piece that makes the goal
-   measurable.
-5. Goal tracking: target, current position, required rate, whether he is
-   ahead or behind, and by how much.
+4. ~~Account balances~~ DONE 2026-10-04 for Mercury and Wise. Still missing
+   for Bank Alfalah and Allied, which have no API.
+5. ~~Goal tracking~~ DONE 2026-10-04. The Overview page shows net worth
+   against both targets, with the monthly rate recomputed from today on every
+   read so it cannot go stale.
+6. Recurring payments: DONE 2026-10-04. $405 a month across 6, detected from
+   Mercury and Wise history rather than declared by hand.
 
 ## History
 
